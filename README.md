@@ -35,3 +35,5 @@ Copy its contents and paste them to whatever question it's asking for.
 Common sense, no, you can't.
 
 Made by Tangly <3
+
+with help of pr0xy1337
