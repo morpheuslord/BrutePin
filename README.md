@@ -8,6 +8,8 @@
 
 [How do I find the account's cookie (ROBLOSECURITY) and CSRF token?](https://github.com/Luckytrang2010/BrutePin#how-do-i-find-the-accounts-cookie-roblosecurity-and-csrf-token)
 
+[Can you use this on another accounts you don't have access to?](https://github.com/Luckytrang2010/BrutePin#can-you-use-this-on-another-accounts-you-dont-have-access-to)
+
 # What is BrutePin?
 
 It's a ROBLOX pin bruteforcer that tries every possible 4 digit pins in order to unlock whatever you want to do in its account. This is made by Tangly.
@@ -27,5 +29,9 @@ Then look for the cookie and x-csrf-token in request headers.
 ![](https://media.discordapp.net/attachments/743744964500127814/764602356448624640/unknown.png?width=468&height=475)
 
 Copy its contents and paste them to whatever question it's asking for.
+
+# Can you use this on another accounts you don't have access to?
+
+Common sense, no, you can't.
 
 Made by Tangly <3
