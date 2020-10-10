@@ -3,7 +3,9 @@
 # Table of Contents
 
 [What is BrutePin?](https://github.com/Luckytrang2010/BrutePin#what-is-brutepin)
+
 [Why is it asking me to get the account's cookie (ROBLOSECURITY) and CSRF token?](https://github.com/Luckytrang2010/BrutePin#why-is-it-asking-me-to-get-the-accounts-cookie-roblosecurity-and-csrf-token)
+
 [How do I find the account's cookie (ROBLOSECURITY) and CSRF token?](https://github.com/Luckytrang2010/BrutePin#how-do-i-find-the-accounts-cookie-roblosecurity-and-csrf-token)
 
 # What is BrutePin?
