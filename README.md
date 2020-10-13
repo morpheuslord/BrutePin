@@ -10,6 +10,11 @@
 
 [Can you use this on another accounts you don't have access to?](https://github.com/Luckytrang2010/BrutePin#can-you-use-this-on-another-accounts-you-dont-have-access-to)
 
+# Update Logs
+```
+[i] 10/12/2020 - Added colorama to BrutePin and an option to read the cache (broken rn, answer the first issue if you want, considered beta for now)
+```
+
 # What is BrutePin?
 
 It's a ROBLOX pin bruteforcer that tries every possible 4 digit pins in order to unlock whatever you want to do in its account. This is made by Tangly.
