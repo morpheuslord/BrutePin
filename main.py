@@ -6,9 +6,10 @@ import sys
 import random
 from colorama import Back,Fore,init
 init() #colorama initialize
-cachedude = open("cache.txt","r+")
-ok = str(cachedude.read()).split("\n")
-pins = open("4digitcodes.txt","r+")
+cachedude = open("cache.txt","w")
+cachedude2 = open("cache.txt","r")
+ok = cachedude2.read().split("\n")
+pins = open("4digitcodes.txt","r")
 codes = pins.read().split("\n")
 activated = False
 print(Fore.YELLOW + "CREDITS TO SECLIST FOR 4 DIGIT CODES\nTo find your account's cookie and csrf token,\ncheck the README.md file in " + Fore.WHITE + "Github" + Fore.YELLOW + "\nfanks," + Fore.RED + "\nlove by 0x74ngly / Tangly\n" + Fore.WHITE + "-------------")
@@ -21,7 +22,7 @@ def convert(num):
         return f"0{num}"
     else:
         return str(num)
-if cachedude.read() != "":
+if cachedude2.read() != "":
     def makerequest(pin,cookiepls,csrftoken,ospls):
         statustime = f"Tried {pin}"
         hehe = CaseInsensitiveDict()
@@ -135,7 +136,6 @@ if cachedude.read() != "":
 [4] Linux <-- not tested
 [5] Mac OS <-- not tested
 Option: """)
-        cachedude.truncate(0)
         cachedude.write(f"{cookiepls}\n{ospls}")
         cachedude.close()
         waittime = input("(5 is recommended) How many seconds would the bruteforcer run each pin?: ")
@@ -202,7 +202,6 @@ else:
 [4] Linux <-- not tested
 [5] Mac OS <-- not tested
 Option: """)
-    cachedude.truncate(0)
     cachedude.write(f"{cookiepls}\n{ospls}")
     cachedude.close()
     waittime = input("(2 is recommended) How many seconds would the bruteforcer run each pin?: ")
