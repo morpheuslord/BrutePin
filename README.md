@@ -14,7 +14,8 @@
 
 # Update Logs
 ```
-[i] 10/12/2020 - Added colorama to BrutePin and an option to read the cache (broken rn, answer the first issue if you want, considered beta for now)
+[i] 10/12/2020 - added colorama to BrutePin and an option to read the cache (broken rn, answer the first issue if you want, considered beta for now)
+[i] 10/13/2020 - added requirements.txt for people to install modules needed for this to run
 ```
 
 # What is BrutePin?
