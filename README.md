@@ -24,7 +24,7 @@ It's a ROBLOX pin bruteforcer that tries every possible 4 digit pins in order to
 
 # Why is it asking me to get the account's cookie (ROBLOSECURITY) and CSRF token?
 
-This is because it would require both of those in order to get the bad boy going. CSRF token is used for anti-XSS.
+This is because it would require both of those in order to get the bad boy going. CSRF token is used for preventing anyone to perform CSRF attack on a victim. CSRF is an attack where someone sends a request the web application trusts to the victim, then the victim accepts the request, and someone gets the info.
 
 # How do I find the account's cookie (ROBLOSECURITY) and CSRF token?
 
