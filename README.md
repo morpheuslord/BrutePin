@@ -22,11 +22,11 @@
 
 It's a ROBLOX pin bruteforcer that tries every possible 4 digit pins in order to unlock whatever you want to do in its account. This is made by Tangly.
 
-# Why is it asking me to get the account's cookie (ROBLOSECURITY) and CSRF token?
+# Why is it asking me to get the account's cookie (temporary) and CSRF token?
 
 This is because it would require both of those in order to get the bad boy going. CSRF token is used for preventing anyone to perform CSRF attack on a victim. CSRF is an attack where someone sends a request the web application trusts to the victim, then the victim accepts the request, and someone gets the info.
 
-# How do I find the account's cookie (ROBLOSECURITY) and CSRF token?
+# How do I find the account's cookie (temporary) and CSRF token?
 
 You open up inspect element, open Network tab, and try to enter in some random pin, then find the unlock request, you will see this.
 ![](https://media.discordapp.net/attachments/743744964500127814/764601419625267242/unknown.png?width=469&height=475)
