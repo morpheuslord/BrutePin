@@ -1,47 +1,49 @@
 # BrutePin
 
-# Table of Contents
+## Table of Contents
 
-[Update Logs](https://github.com/Luckytrang2010/BrutePin#update-logs)
+- [Update Logs](#update-logs)
+- [What is BrutePin?](#what-is-brutepin)
+- [Why Does BrutePin Require the Account's Cookie (ROBLOSECURITY) and CSRF Token?](#why-does-brutepin-require-the-accounts-cookie-roblosecurity-and-csrf-token)
+- [How Do I Obtain the Account's Cookie (ROBLOSECURITY) and CSRF Token?](#how-do-i-obtain-the-accounts-cookie-roblosecurity-and-csrf-token)
+- [Can I Use BrutePin on Accounts I Don't Have Access To?](#can-i-use-brutepin-on-accounts-i-dont-have-access-to)
 
-[What is BrutePin?](https://github.com/Luckytrang2010/BrutePin#what-is-brutepin)
+---
 
-[Why is it asking me to get the account's cookie (ROBLOSECURITY) and CSRF token?](https://github.com/Luckytrang2010/BrutePin#why-is-it-asking-me-to-get-the-accounts-cookie-roblosecurity-and-csrf-token)
-
-[How do I find the account's cookie (ROBLOSECURITY) and CSRF token?](https://github.com/Luckytrang2010/BrutePin#how-do-i-find-the-accounts-cookie-roblosecurity-and-csrf-token)
-
-[Can you use this on another accounts you don't have access to?](https://github.com/Luckytrang2010/BrutePin#can-you-use-this-on-another-accounts-you-dont-have-access-to)
-
-# Update Logs
+## Update Logs
 ```
-[i] 10/12/2020 - added colorama to BrutePin and an option to read the cache (broken rn, answer the first issue if you want, considered beta for now)
-[i] 10/13/2020 - added requirements.txt for people to install modules needed for this to run
+[i] 10/12/2020 - Added Colorama to BrutePin and an option to read the cache (currently broken, refer to the first issue if you want; considered beta for now).
+[i] 10/13/2020 - Added requirements.txt for users to install necessary modules to run this tool.
 ```
 
-# What is BrutePin?
+## What is BrutePin?
 
-It's a ROBLOX pin bruteforcer that tries every possible 4 digit pins in order to unlock whatever you want to do in its account. This is made by Tangly.
+BrutePin is a ROBLOX pin bruteforcer that systematically tries every possible 4-digit pin to gain access to specific functionalities within a ROBLOX account. This tool was created by Tangly.
 
-# Why is it asking me to get the account's cookie (temporary) and CSRF token?
+## Why Does BrutePin Require the Account's Cookie (ROBLOSECURITY) and CSRF Token?
 
-This is because it would require both of those in order to get the bad boy going. CSRF token is used for preventing anyone to perform CSRF attack on a victim. CSRF is an attack where someone sends a request the web application trusts to the victim, then the victim accepts the request, and someone gets the info.
+BrutePin needs both the ROBLOSECURITY cookie and the CSRF token to function. The CSRF token is essential for preventing Cross-Site Request Forgery (CSRF) attacks, where unauthorized actions are performed using a user's identity without their consent.
 
-# How do I find the account's cookie (temporary) and CSRF token?
+## How Do I Obtain the Account's Cookie (ROBLOSECURITY) and CSRF Token?
 
-You open up inspect element, open Network tab, and try to enter in some random pin, then find the unlock request, you will see this.
-![](https://media.discordapp.net/attachments/743744964500127814/764601419625267242/unknown.png?width=469&height=475)
+To obtain these tokens:
+1. Open the browser's developer tools (inspect element).
+2. Navigate to the Network tab.
+3. Attempt to enter a random pin using BrutePin.
+4. Locate the unlock request in the network traffic details.
 
-Then look for the cookie and x-csrf-token in request headers.
+You will find the required tokens (`cookie` and `x-csrf-token`) in the request headers.
 
-![](https://media.discordapp.net/attachments/743744964500127814/764602197958197258/unknown.png?width=470&height=475)
-![](https://media.discordapp.net/attachments/743744964500127814/764602356448624640/unknown.png?width=468&height=475)
+![Cookie and CSRF Token](https://media.discordapp.net/attachments/743744964500127814/764601419625267242/unknown.png?width=469&height=475)
 
-Copy its contents and paste them to whatever question it's asking for.
+![Request Headers](https://media.discordapp.net/attachments/743744964500127814/764602197958197258/unknown.png?width=470&height=475)
+![Request Headers](https://media.discordapp.net/attachments/743744964500127814/764602356448624640/unknown.png?width=468&height=475)
 
-# Can you use this on another accounts you don't have access to?
+Copy the contents of these tokens and paste them into BrutePin when prompted.
 
-Common sense, no, you can't.
+## Can I Use BrutePin on Accounts I Don't Have Access To?
 
-Made by Tangly <3
+No, BrutePin is designed to be used only on accounts where you have legitimate access and authorization.
 
-with help of pr0xy1337
+Created by Tangly <3  
+With assistance from pr0xy1337
